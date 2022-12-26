@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -433,6 +433,7 @@ nav .caret {
 }
 
 .mg-md {
+    position: relative; 
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -675,7 +676,7 @@ a {
 
 p {
     font-size: 14px;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.5px;
 }
 
 .tight-width-whitespace {
@@ -703,6 +704,7 @@ p {
 }
 
 h2 {
+    font-weight: bold;
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #890B0B!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
