@@ -652,6 +652,8 @@ a {
     color: #575757!important;
 }
 
+h1 {font-weight: bold;}
+
 .container {
     max-width: 1000px;
 }
