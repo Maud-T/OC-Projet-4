@@ -3164,7 +3164,7 @@ output {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(137, 11, 11, .6)
 }
 
-.form-control::-moz-placeholder {
+.form-control:-moz-placeholder {
     color: #999;
     opacity: 1
 }
@@ -3190,7 +3190,9 @@ fieldset[disabled] .form-control {
 }
 
 textarea.form-control {
-    height: auto
+    height: auto; 
+    min-width: 100%;
+    max-width: 100%
 }
 
 input[type=search] {
@@ -6131,7 +6133,7 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
+    color: #644F2B;
     background-color: #fcf8e3;
     border-color: #faebcc
 }

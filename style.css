@@ -858,6 +858,14 @@ h4 {
     background-image: url("img/banniere-2.jpg");
 }
 
+.txt-gras-red {
+    color: #890B0B;
+    font-weight: bold; 
+}
+
+.coordonnees a {text-decoration: underline;
+color: red;}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1024px) {
@@ -1056,6 +1064,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .coordonnees {margin-top: 20px;}
 }
 
 @media (max-width: 400px) {
