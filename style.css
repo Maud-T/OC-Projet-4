@@ -863,8 +863,7 @@ h4 {
     font-weight: bold; 
 }
 
-.coordonnees a {text-decoration: underline;
-color: red;}
+.coordonnees a {text-decoration: underline;}
 
 /* MEDIA QUERIES */
 
